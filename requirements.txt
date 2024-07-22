@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+python-dotenv
+pytube
+youtube_transcript_api
+langchain_core
