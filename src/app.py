@@ -1,15 +1,17 @@
-import os
-import time
-import json
-from PIL import Image # type: ignore
-import io
-from pytube import YouTube # type: ignore
-from dotenv import load_dotenv # type: ignore 
-import google.generativeai as genai # type: ignore 
-import streamlit as st # type: ignore
-from youtube_transcript_api import YouTubeTranscriptApi # type: ignore
-from langchain_core.messages import AIMessage, HumanMessage # type: ignore
-
+try:
+    import os
+    import time
+    import json
+    from PIL import Image # type: ignore
+    import io
+    from pytube import YouTube # type: ignore
+    from dotenv import load_dotenv # type: ignore 
+    import google.generativeai as genai # type: ignore 
+    import streamlit as st # type: ignore
+    from youtube_transcript_api import YouTubeTranscriptApi # type: ignore
+    from langchain_core.messages import AIMessage, HumanMessage # type: ignore
+except Exception as e:
+    print(f"An error occurred: {e}")
 MEDIA_FOLDER = 'medias'
 SUMMARY_PROMPT = """
 You are a YouTube video summarizer. You will take the transcript text and summarize the entire video, providing the important points within 250 words. Please provide the summary of the text given here:
