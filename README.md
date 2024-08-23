@@ -104,6 +104,5 @@ Please ensure that your code adheres to the project's coding standards and inclu
 For any questions or feedback, please reach out to:
 
 - **Email**: amulthantharate@gmail.com
-- **GitHub Issues**: [Issues](https://github.com/Amul-Thantharate/)
 - **LinkedIn**: [Amul Thantharate](https://www.linkedin.com/in/amul-thantharate/)
 
